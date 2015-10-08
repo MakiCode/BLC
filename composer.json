@@ -1,0 +1,24 @@
+{
+  "name": "trentonmaki/bitlending-club-investor",
+  "description": "A script that uses the bitlendingclub service for Georg",
+  "authors": [
+    {
+      "name": "MakiCode",
+      "email": "trentonmaki@gmail.com"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "^4.8",
+    "guzzlehttp/guzzle": "~6.0",
+    "trentonmaki/primitive-types": "^1.0",
+    "trentonmaki/complex-types": "^1.0",
+    "monolog/monolog": "^1.17",
+    "swiftmailer/swiftmailer": "^5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "BLC\\": "src/"
+    },
+    "files": ["src/functions.php", "src/processDataFunctions.php", "src/consumeQueue.php"]
+  }
+}

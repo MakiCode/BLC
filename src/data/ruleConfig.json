@@ -1,0 +1,43 @@
+{
+  "APIKey": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLmJpdGxlbmRpbmdjbHViLmNvbVwvYXBpXC90b2tlbiIsInN1YiI6IjE5NTQ5IiwiaWF0IjoxNDQxNDg2MjE1LCJleHAiOjE0NDQwNzgyMTV9.YWfgzz_d7BXgi7t1Ac6fVpxvIyf_6thEVc_-zyBBjN0",
+  "scale": 5,
+  "version": "1",
+  "logFile": "data/log.log",
+  "logName": "BLC",
+  "cacheFile": "data/data.json",
+  "email": {
+    "username": "appforgeorg@gmail.com",
+    "password": "#6Mk1pXBxSymt%C5$LtvBNbUU*c4m^eJGIHqPvGAFljf%SuO$1&e$IOIaLdi0fZ0",
+    "smtp":"smtp.gmail.com",
+    "port":587,
+    "security":"tls",
+    "sender": "appforgeorg@gmail.com",
+    "to": [
+      "trentonmaki@gmail.com"
+    ]
+  },
+  "rules": {
+    "automaticBorrowers": [
+      {
+        "borrowerId": "15695",
+        "amount": "0.0003"
+      },
+      {
+        "borrowerId": "6848",
+        "amount": "0.0004"
+      }
+    ],
+    "reputationBTCLoanAmount": "0.0003",
+    "manualInvestments": [
+      {
+        "loanID": "17560",
+        "amount": "0.0001"
+      },
+      {
+        "loanID": "18661",
+        "amount": "0.0002",
+        "maxRate": "1"
+      }
+    ]
+  }
+}
